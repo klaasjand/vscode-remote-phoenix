@@ -1,0 +1,32 @@
+{
+  "name": "Elixir Remote Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash"
+          }
+        }
+      },
+      "extensions": [
+        "editorconfig.editorconfig",
+        "jakebecker.elixir-ls"
+      ]
+    }
+  },
+  "forwardPorts": [
+    4000
+  ],
+  "portsAttributes": {
+    "4000": {
+      "label": "Forwarded Port",
+      "onAutoForward": "notify"
+    }
+  },
+  // Remove or comment out to connect as root user.
+  "remoteUser": "vscode"
+}

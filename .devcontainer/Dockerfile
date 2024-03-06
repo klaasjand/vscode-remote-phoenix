@@ -1,4 +1,4 @@
-FROM elixir:1.16-otp-26-slim
+FROM elixir:1.16-otp-26
 LABEL maintainer="Klaas Jan Dijksterhuis"
 
 ARG USERNAME=vscode

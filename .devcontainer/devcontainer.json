@@ -10,11 +10,15 @@
           "bash": {
             "path": "/bin/bash"
           }
+        },
+        "emmet.includeLanguages": {
+          "phoenix-heex": "html"
         }
       },
       "extensions": [
         "editorconfig.editorconfig",
-        "jakebecker.elixir-ls"
+        "jakebecker.elixir-ls",
+        "phoenixframework.phoenix"
       ]
     }
   },

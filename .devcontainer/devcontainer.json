@@ -11,6 +11,7 @@
             "path": "/bin/bash"
           }
         },
+        "editor.formatOnSave": true,
         "emmet.includeLanguages": {
           "phoenix-heex": "html"
         }
